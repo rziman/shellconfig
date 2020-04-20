@@ -1,0 +1,19 @@
+#
+# Statusbar line with current window in bold and surrounded by brackets
+# http://aperiodic.net/screen/appearance#status_bar_examples (28-Jun-2012)
+#
+caption always "%{-b ..}%-w%{+b ..}[[%n%f*%t]]%{-}%+w"
+
+#
+# Disable the startup message
+# https://wiki.archlinux.org/index.php/GNU_Screen#Turn_welcome_message_off (04-May-2014)
+#
+startup_message off
+
+#
+# Fixing CTRL-* in vim under GNU screen
+# http://unix.stackexchange.com/questions/6992/fixing-ctrl-in-vim-under-gnu-screen (28-Nov-2016)
+#
+term xterm
+
+defscrollback 100000
